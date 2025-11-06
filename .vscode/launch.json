@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ShowMarketApplication<show-market>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.backend.show_market.ShowMarketApplication",
+            "projectName": "show-market",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
