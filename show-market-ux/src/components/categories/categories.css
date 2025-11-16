@@ -1,0 +1,33 @@
+.categories {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.categories h3 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1.5rem;
+}
+
+.category-card {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: background 0.3s;
+  cursor: pointer;
+}
+
+.category-card:hover {
+  background-color: #e0f2fe;
+}
+
+.category-card .icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}

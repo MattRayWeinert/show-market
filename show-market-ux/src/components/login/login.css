@@ -1,0 +1,110 @@
+/* src/components/LoginPage.css */
+.login-page {
+  height: 100vh;
+  background: linear-gradient(to bottom right, #f9fafc, #e3e7ec);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-box {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.login-title {
+  margin-bottom: 10px;
+  font-size: 26px;
+  color: #2c3e50;
+}
+
+.login-subtitle {
+  margin-bottom: 30px;
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border 0.2s ease-in-out;
+}
+
+.login-form input:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-form button:hover {
+  background: #357ab8;
+}
+
+.login-links {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.login-links a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+.login-links a:hover {
+  text-decoration: underline;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Red border for email field while typing */
+.input-red {
+  border: 2px solid #e74c3c !important;
+}
+
+.back-link {
+  color: #4a90e2;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
